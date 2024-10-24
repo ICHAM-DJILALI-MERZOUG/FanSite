@@ -1,0 +1,63 @@
+.résumé_index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+main {
+    height: 92.5vh;
+}
+
+.image_index {
+    width: 80%;
+    height: 450px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/dbz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+body {
+    background-image: url(images/kame.jpeg);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.index_présentation {
+    text-align: center;
+    color: rgb(63, 34, 34);
+    background-color: rgb(255, 228, 196, 0.5);
+    width: 50%;
+}
+
+h2, h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 38, 0);
+    background-color: rgb(255, 228, 196, 0.6);
+    width: 50%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.lien_index {
+    color: rgb(206, 0, 0);
+    text-decoration: none;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 125%;
+}

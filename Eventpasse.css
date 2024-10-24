@@ -1,0 +1,46 @@
+.titre2_akira {
+    text-align: left;
+}
+
+.mort {
+    width: 60%;
+}
+
+.section_mort{
+    width: 40%
+}
+
+.image_concour {
+    width: 20%;
+}
+
+.lien_concour {
+    color: rgba(0, 183, 255, 0.804);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/dbz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+main {
+    height: 92.5vh;
+}
+
+body {
+    background-image: url(images/kame.jpeg);
+    margin: 0;
+    min-height: 100vh;
+}
+
+h2, h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 38, 0);
+    background-color: rgb(255, 228, 196, 0.6);
+    width: 50%;
+}

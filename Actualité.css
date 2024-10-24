@@ -1,0 +1,77 @@
+.article_sparking {
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.figure_sparking {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image_sparking {
+    width: 100%;
+}
+
+.texte_jeu_sparking {
+    width: 30vw;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.site_sparking:hover {
+    color: rgb(24, 168, 187);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/dbz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.bn_image {
+    width: 80%;
+}
+
+.bandai_namco {
+    width: 50vw;
+    height: 25vh;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    height: 92.5vh;
+}
+
+body {
+    background-image: url(images/kame.jpeg);
+    margin: 0;
+    min-height: 100vh;
+}
+
+h2, h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 38, 0);
+    background-color: rgb(255, 228, 196, 0.6);
+    width: 50%;
+}
