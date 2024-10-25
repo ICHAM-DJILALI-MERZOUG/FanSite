@@ -20,9 +20,9 @@ body {
         position: absolute; /* Position absolue par rapport au conteneur parent .Rsx */
         background-color: #e77111; /* Couleur de fond du menu déroulant */
         min-width: 160px; /* Largeur minimale du menu déroulant */
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Ombre portée pour donner de la profondeur */
-        z-index: 1; /* Assure que le menu déroulant soit au-dessus des autres éléments */
     }
+        
+        
     
     /* Style des liens à l'intérieur du menu déroulant */
     .B .Ac {
@@ -71,4 +71,48 @@ body {
     }
     
     
-    
+    .barnav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center; /* Ajoute pour centrer verticalement */
+        background-color: #e77111; /* Couleur de fond pour visualiser */
+        padding: 20px;
+    }
+    .navbar{
+        color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-style: italic;
+    }
+
+    .barA{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+    }
+
+
+    .ph{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 20px;
+        gap: 10px;
+    }
+
+.phh{
+    height:275px;
+    width:auto;
+}
+
+.V{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.YC{
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
