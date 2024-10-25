@@ -1,77 +1,87 @@
-.article_sparking {
-    height: 30vh;
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.figure_sparking {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.image_sparking {
+body {
     width: 100%;
+    background-image: url(images/kame.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-size: cover;
 }
 
-.texte_jeu_sparking {
-    width: 30vw;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.site_sparking:hover {
-    color: rgb(24, 168, 187);
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
+    background-color: rgb(255, 228, 196, 0.7);
+    padding: 1%;
+    margin: 1%;
     display: flex;
     justify-content: space-around;
-    background-image: url(images/dbz.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
+    border-radius: 30px;
+    border: solid black 2px;
 }
 
-.bn_image {
-    width: 80%;
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
 }
 
-.bandai_namco {
-    width: 50vw;
-    height: 25vh;
+a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 3px;
+    border: dashed black 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 228, 196, 0.7);
+    padding: 8px;
+    margin: 20px;
 }
 
-.video {
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+h2 {
+    width: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 228, 196, 0.4);
+    border: solid black 2px;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 228, 196, 0.7);
+    width: 250px;
+    border: solid black 2px;
 }
 
 main {
-    height: 92.5vh;
+    height: 100vh;
 }
 
-body {
-    background-image: url(images/kame.jpeg);
-    margin: 0;
-    min-height: 100vh;
+img {
+    width: 175px;
+    height: 150px;
+    border-radius: 20px;
+    border: black solid 2px;
 }
 
-h2, h1 {
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 38, 0);
-    background-color: rgb(255, 228, 196, 0.6);
-    width: 50%;
 }

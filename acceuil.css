@@ -1,0 +1,108 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style du corps */
+body {
+    background-color: #f4d1ae; /* Terre cuite clair */
+    color: #5d4037; /* Marron chocolat */
+    text-align: center;
+    padding-top: 70px; /* Pour éviter que le contenu se superpose à la barre de navigation */
+}
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #8e3b46; /* Rouge brique foncé */
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* S'assurer que la barre reste au-dessus du contenu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour l'effet de profondeur */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Blanc */
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Effet au survol des liens de la barre de navigation */
+nav ul li a:hover {
+    background-color: #a6586a; /* Rouge brique plus clair */
+    transform: scale(1.1);
+}
+
+/* Style du conteneur principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Ajusté pour équilibrer la page */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #6d4c41; /* Marron moyen */
+    margin-bottom: 30px;
+}
+
+/* Conteneur des images */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.image-container a {
+    width: 25vw; /* Les images prennent 25% de la largeur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.image-container img {
+    width: 100%; /* S'adapte à la taille du conteneur */
+    height: auto; /* Conserve le ratio pour les images carrées */
+    aspect-ratio: 1 / 1; /* Assure que les images sont carrées */
+    border-radius: 20px; /* Bords arrondis */
+    object-fit: cover; /* Garde l'image bien cadrée */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour effet de profondeur */
+}
+
+/* Effet au survol des images */
+.image-container a:hover {
+    transform: scale(1.05);
+}
+
+/* Style du pied de page */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #8d6e63; /* Marron clair */
+}
