@@ -82,7 +82,7 @@ p {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 5s, transform 0.3s;
 }
 
 /* Animation de survol pour donner un effet énergique */
@@ -119,10 +119,10 @@ p {
 /* Pour donner un effet de pulsation constante */
 @keyframes pulse {
     0%, 100% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
     50% {
-        transform: scale(1.05);
+        transform: scale(1.3);
     }
 }
 
