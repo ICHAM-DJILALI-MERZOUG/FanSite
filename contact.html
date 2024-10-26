@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact - Dragon Ball Z</title>
+    <link rel="stylesheet" href="contact..css">
+</head>
+<body>
+    <main>
+        <h1>Contactez-nous !</h1>
+        <p>Envoyez un message à vos guerriers Saiyans préférés !</p>
+        <form class="dbz-form">
+            <label for="name">Nom Saiyan :</label>
+            <input type="text" id="name" name="name" placeholder="Ex : Kakarot" required>
+            
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" name="email" placeholder="Ex : goku@capsulecorp.com" required>
+            
+            <label for="origin">Planète d'origine :</label>
+            <input type="text" id="origin" name="origin" placeholder="Ex : Terre, Namek, Vegeta" required>
+            
+            <label for="favorite-move">Technique spéciale préférée :</label>
+            <textarea id="favorite-move" name="favorite-move" placeholder="Ex : Kamehameha, Final Flash" rows="2" required></textarea>
+            
+            <label for="transformation">Transformation préférée :</label>
+            <select id="transformation" name="transformation">
+                <option value="base-form">Forme de base</option>
+                <option value="super-saiyan">Super Saiyan</option>
+                <option value="super-saiyan-blue">Super Saiyan Blue</option>
+                <option value="ultra-instinct">Ultra Instinct</option>
+            </select>
+            
+            <label for="power-level">Niveau de Puissance :</label>
+            <select id="power-level" name="power-level">
+                <option value="under9000">Sous 9000</option>
+                <option value="over9000">Plus de 9000 !</option>
+                <option value="super-saiyan">Super Saiyan</option>
+                <option value="ultra-instinct">Ultra Instinct</option>
+            </select>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Dites-nous ce que vous pensez !" rows="5" required></textarea>
+            
+            <button type="submit"><span>Envoyer l'Énergie !</span></button>
+        </form>
+    </main>
+</body>
+</html>
