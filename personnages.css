@@ -14,12 +14,6 @@ img {
     border: black solid 2px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 nav {
     background-color: rgb(255, 228, 196, 0.7);
     padding: 1%;
