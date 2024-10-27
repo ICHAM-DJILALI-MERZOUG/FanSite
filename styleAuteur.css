@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center; /* Ajoute pour centrer verticalement */
-    background-color: #e77111; /* Couleur de fond pour visualiser */
+    align-items: center; 
+    background-color: #e77111; 
     padding: 20px;
 }
 .navbar{
@@ -43,70 +43,65 @@ p{
 
 
 
-.Rsx {
-    position: relative; /* Position relative pour que le contenu du menu déroulant soit positionné par rapport à ce conteneur */
-    display: inline-block; /* Affichage en ligne pour s'aligner avec les autres liens de navigation */
-}
+    
+
 
 
 /* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
 .Rsx:hover .B {
-    display: block; /* Affiche le menu déroulant */
+    display: block; 
 }
 
 /* Style du contenu du menu déroulant */
 .B {
-    display: none; /* Cache le menu déroulant par défaut */
-    position: absolute; /* Position absolue par rapport au conteneur parent .Rsx */
-    background-color: #e77111; /* Couleur de fond du menu déroulant */
-    min-width: 160px; /* Largeur minimale du menu déroulant */
-   
+    display: none; 
+    position: absolute; 
+    background-color: #e77111; 
+    min-width: 160px; 
+
 }
 
 /* Style des liens à l'intérieur du menu déroulant */
 .B .Ac {
-    color: black; /* Couleur du texte des liens */
-    padding: 12px 16px; /* Espacement interne des liens */
-    text-decoration: none; /* Retire la décoration par défaut des liens */
-    display: block; /* Affichage en bloc pour que chaque lien occupe toute la largeur disponible */
+    color: black; 
+    padding: 12px; 
+    text-decoration: none; 
+    display: block; 
 }
 
 /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
 .B .Ac:hover {
-    background-color: #f1f1f1; /* Couleur de fond au survol */
+    background-color: #e54e1c;
 }
 
 
 
-.perso {
-    position: relative; /* Position relative pour que le contenu du menu déroulant soit positionné par rapport à ce conteneur */
-    display: inline-block; /* Affichage en ligne pour s'aligner avec les autres liens de navigation */
-}
+
 
 /* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
 .perso:hover .Pa {
-    display: block; /* Affiche le menu déroulant */
+    display: block; 
 }
 
 /* Style du contenu du menu déroulant pour les personnages */
 .Pa {
-    display: none; /* Cache le menu déroulant par défaut */
-    position: absolute; /* Position absolue par rapport au conteneur parent .perso */
-    background-color: #e17f16; /* Couleur de fond du menu déroulant */
-    min-width: 130px; /* Largeur minimale du menu déroulant */
+    display: none; 
+    position: absolute; 
+    background-color: #e17f16; 
+    min-width: 130px; 
 }
 
 /* Style des liens à l'intérieur du menu déroulant pour les personnages */
 .Pa .P {
-    color: black; /* Couleur du texte des liens */
-    padding: 5px 10px; /* Espacement interne des liens */
-    text-decoration: none; /* Retire la décoration par défaut des liens */
-    display: block; /* Affichage en bloc pour que chaque lien occupe toute la largeur disponible */
+    color: black; 
+    padding:12px; 
+    text-decoration: none; 
+    display: block; 
 }
 
     /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
 .Pa .P:hover {
-    background-color: #f1f1f1; 
+    background-color: #e54e1c; 
 }
 
 .barA{
