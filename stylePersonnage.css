@@ -73,12 +73,6 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
 }
-
- 
-    
-
-
-
 /* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
 .Rsx:hover .B {
     display: block; 
@@ -90,20 +84,17 @@ h1{
     position: absolute; 
     background-color: #e77111; 
     min-width: 160px; 
-    
-    
 }
-
+    
 /* Style des liens à l'intérieur du menu déroulant */
-.B .Ac {
+.Ac {
     color: black; 
     padding: 12px; 
     text-decoration: none; 
     display: block; 
 }
-
 /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
-.B .Ac:hover {
+.Ac:hover {
     background-color: #e54e1c;
 }
 
@@ -113,7 +104,7 @@ h1{
     
 
 
-/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+
 .perso:hover .Pa {
     display: block; 
 }
@@ -127,7 +118,7 @@ h1{
 }
 
 /* Style des pages à l'intérieur du menu déroulant pour les personnages */
-.Pa .P {
+.P {
     color: black; 
     padding:12px; 
     text-decoration: none; 
@@ -135,6 +126,6 @@ h1{
 }
 
     
-.Pa .P:hover {
+ .P:hover {
     background-color: #e54e1c; 
 }

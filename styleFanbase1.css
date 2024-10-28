@@ -1,9 +1,7 @@
 .barnav  {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center; 
-    background-color: #e77111; /* Couleur de fond pour visualiser */
+    background-color: #e77111; 
     padding: 20px; 
 }
 .barA{
@@ -11,11 +9,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
 }
-h1{
-    text-align: center;
-    font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
+
 .navbar{
     color: black;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -24,7 +19,7 @@ h1{
 }
 
 .navbar:hover {
-    background-color: #e54e1c; /* Changement de couleur au survol */
+    background-color: #e54e1c; 
 }
 .conteneur {
     display: flex; 
@@ -35,7 +30,7 @@ h1{
 
 .j {
     height: 500px; 
-    width: auto;
+   width: auto;
 }
 body {
     background-color: #001f3f; 
@@ -73,7 +68,7 @@ p{
 }
 
 /* Style des liens à l'intérieur du menu déroulant */
-.B .Ac {
+.Ac {
     color: black; 
     padding: 12px; 
     text-decoration: none; 
@@ -81,15 +76,11 @@ p{
 }
 
 
-.B .Ac:hover {
+.Ac:hover {
     background-color: #e54e1c; 
 }
 
 
-
-
-
-/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
 .perso:hover .Pa {
     display: block; 
 }
@@ -103,7 +94,7 @@ p{
 }
 
 /* Style des pages à l'intérieur du menu déroulant pour les personnages */
-.Pa .P {
+.P {
     color: black; 
     padding: 12px; 
     text-decoration: none;
@@ -111,7 +102,7 @@ p{
 }
 
     
-.Pa .P:hover {
+ .P:hover {
     background-color: #e54e1c; 
 }
 
@@ -121,3 +112,8 @@ p{
     justify-content: space-evenly;
 }
 
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

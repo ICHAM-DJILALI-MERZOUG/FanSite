@@ -47,7 +47,7 @@ p{
 
 
 
-/* Affiche le contenu du menu déroulant lorsque le conteneur est survolé */
+
 .Rsx:hover .B {
     display: block; 
 }
@@ -62,7 +62,7 @@ p{
 }
 
 /* Style des liens à l'intérieur du menu déroulant */
-.B .Ac {
+.Ac {
     color: black; 
     padding: 12px; 
     text-decoration: none; 
@@ -70,7 +70,7 @@ p{
 }
 
 /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
-.B .Ac:hover {
+.Ac:hover {
     background-color: #e54e1c;
 }
 
@@ -92,7 +92,7 @@ p{
 }
 
 /* Style des liens à l'intérieur du menu déroulant pour les personnages */
-.Pa .P {
+.P {
     color: black; 
     padding:12px; 
     text-decoration: none; 
@@ -100,7 +100,7 @@ p{
 }
 
     /* Change le fond des liens au survol pour indiquer qu'ils sont interactifs */
-.Pa .P:hover {
+.P:hover {
     background-color: #e54e1c; 
 }
 
